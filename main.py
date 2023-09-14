@@ -31,3 +31,20 @@ for hight in student_heights:
     # 857
 print(total_height)
 #857 - result
+
+
+# replicate "len" function
+number_of_students = 0
+for students in student_heights:
+    #"number_of_students = number_of_students + 1" the same as "number_of_students += 1"
+    number_of_students += 1
+    # print(number_of_students)
+    # 1
+    # 2
+    # 3  
+    # 4
+    # 5
+# print(number_of_students)
+# 5
+print(round(total_height / number_of_students))
+#171 - result
